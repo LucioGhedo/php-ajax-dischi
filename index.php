@@ -21,10 +21,10 @@
     <div class="container_disk">
         <?php foreach($database as $disk) { ?>
             <div class="disc p-3 text-center">
-                <img src=<?php echo $disk['poster'] ?> alt=<?php echo $disk['title'] ?> />
-                <h3><?php echo $disk['title'] ?></h3>
-                <p><?php echo $disk['author'] ?></p>
-                <p class="year"><?php echo $disk['year'] ?></p>
+                <img src=<?php echo $disk['poster']; ?> alt=<?php echo $disk['title']; ?> />
+                <h3><?php echo $disk['title']; ?></h3>
+                <p><?php echo $disk['author']; ?></p>
+                <p class="year"><?php echo $disk['year']; ?></p>
             </div>
         <?php } ?>
     </div>
