@@ -19,7 +19,7 @@
         </header>
         <div class="container_disk">
             <div v-for="item in diskArray" class="disc p-3 text-center">
-                <img :src="item.poster"/>
+                <img :src="item.poster" :alt="item.title"/>
                 <h3>{{item.title}}</h3>
                 <p>{{item.author}}</p>
                 <p class="year">{{item.year}}</p>
